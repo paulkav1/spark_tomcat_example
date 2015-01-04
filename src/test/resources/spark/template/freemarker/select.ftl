@@ -21,8 +21,6 @@
  </div>    
 </div> 
 <#include "script.ftl">
-<script>
-<#include "tree.js">
-</script>  
+
 </body>
 </html>
