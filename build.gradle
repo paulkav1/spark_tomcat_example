@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+version = '1.0'
+war{
+	baseName = 'Hello'	
+}
+repositories{
+	flatDir{
+	dirs 'lib'
+	}
+}
+dependencies {
+    compile 'lib:spark-core:2.1'
+    compile 'lib:slf4j-api:1.7.9'
+    compile 'lib:slf4j-simple:1.7.9'
+    compile 'lib:spark-template-freemarker:2.0.0'
+    compile 'lib:freemarker'       
+}

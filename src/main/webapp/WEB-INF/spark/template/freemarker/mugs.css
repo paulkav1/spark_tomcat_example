@@ -1,0 +1,20 @@
+#mycanvas{
+ background-color: white;
+} 
+#scroller{
+    overflow: scroll;
+    background-color:white;
+    width:1024px;
+}
+body {
+ font-size:12px; 
+ font-family:sans-serif
+}
+#table{
+    width:300px;
+    float:left;
+}
+#tree{
+    width:480px;
+    margin-left:320px;
+}
